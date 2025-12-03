@@ -1,0 +1,89 @@
+.bungee-spice-regular {
+  font-family: "Bungee Spice", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    /* background-color: #121212; */
+    color: white;
+}
+
+.container {
+    max-width: 80%;
+    /* background-color: lightgreen; */
+    color: black;
+    padding: 34px;
+    margin: auto;
+  }
+  
+  .container h1 {
+    font-family: "Bungee Spice", sans-serif;
+    text-align: center;
+    font-size: 40px;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+  }
+  .container>p {
+    font-size: 1rem;
+    text-align: center;
+  }
+  
+  form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+input,
+textarea {
+  width: 60%;
+  margin: 12px 0px;
+  padding: 7px;
+  font-size: 1rem;
+  border: 2px solid black;
+  outline: none;
+  border-radius: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+textarea {
+  resize: none;
+}
+
+.bg {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+}
+
+.btn {
+  padding: 10px 40px;
+  border: 2px solid black;
+  border-radius: 5px;
+  background: royalblue;
+  color: #fff0f0;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.submitMsg {
+    text-align: center;
+    color: #00a000;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
