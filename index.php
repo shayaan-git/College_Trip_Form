@@ -1,10 +1,5 @@
 <?php
 
-/* Connecting with mySQL => Two primary ways
-1. mySQLi functions (used here.)
-2. php data objects
-*/
-
 require_once 'config.php';
 
 $insert = false;
